@@ -6,6 +6,8 @@ Streaming assets will conain all the models used by vosk in .zip format.<br>
 
 ⚠️ **IMPORTANT:** This MUST  be put like `Assets/StreamingAssets/vosk-model.zip`, the folder has to be named `StreamingAssets` or it won't work.
 
+You can find other vosk models [here](https://alphacephei.com/vosk/models)
+
 ## Vosk
 This folder contains a bunch of dependencies that the base scripts use, just put them in the `Assets` folder
 
