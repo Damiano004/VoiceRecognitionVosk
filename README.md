@@ -26,4 +26,5 @@ This folder contains all the base scripts that need to be used in order to imple
 <br>
 
 # TROUBLESHOOTING 🔧
-If an exception about **Ionic.zip** non being found ore somehting about the zip package, try moving the `zip` folder inside `Assets/Vosk/` into the `Asset` folder and then back in the Vosk folder. If the problem persist leave it in the `Assets` folder.
+- If you notice that the first time running the it takes a while to load, it's completly normal and it won't do that anymore for the other times that you build that app.
+- If an exception about **Ionic.zip** non being found ore somehting about the zip package, try moving the `zip` folder inside `Assets/Vosk/` into the `Asset` folder and then back in the Vosk folder. If the problem persist leave it in the `Assets` folder.
