@@ -20,3 +20,8 @@ This folder contains all the base scripts that need to be used in order to imple
 - `STTManager.cs`: This is a script home made that interfaces with vosk's scripts in order to implement the Speech To Text in the project without changing the plugin's scripts.
 - `VoskResultText.cs`: (OPTIONAL) Inserts the detected results into a UI component of the project.<br>
 📝 **Note:** this script isn't really that usefull, it's actually better making one of your own to have some more freedome.
+
+<br>
+
+# TROUBLESHOOTING 🔧
+If an exception about **Ionic.zip** non being found ore somehting about the zip package, try moving the `zip` folder inside `Assets/Vosk/` into the `Asset` folder and then back in the Vosk folder. If the problem persist leave it in the `Assets` folder.
