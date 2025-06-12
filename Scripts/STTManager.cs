@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,7 +9,7 @@ public class STTManager : MonoBehaviour
     [Tooltip("Turns off the microphone when a result is returned")]
     [SerializeField] private bool disabeOnResult;
     // startMicrophone = true -> don't start microphone onInit...yeah it's confusing but it is what it is i guess
-    private bool startMicrophone = true;
+    private readonly bool startMicrophone = true;
     [HideInInspector] public bool running;
     // list of numbers
     private readonly List<List<string>> WORD_NUMBER = new List<List<string>>()
@@ -34,12 +33,6 @@ public class STTManager : MonoBehaviour
         Debug.Log("VoskStt started");
         vSTT.OnTranscriptionResult += HandleTranscriptionResult;
     }
-    // basic text transcription
-    //private void HandleTranscriptionResult(string text)
-    //{
-    //    Debug.Log("Result: " + text);
-    //    this.text.text = text;
-    //}
 
     private void HandleTranscriptionResult(string obj)
     {
