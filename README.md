@@ -17,4 +17,5 @@ This folder contains all the base scripts that need to be used in order to imple
 - `VoiceProcessor.cs`: Handles microphone management (e.g., you can set which microphone to use).
 - `VoskSpeechToText.cs`: Uses the provided model to perform speech-to-text; you can specify the maximum number of alternatives or even provide a list of keywords to search for.
 - `RecognitionResult.cs`: Encapsulates the results provided by `VoskSpeechToText.cs`, displaying the detected text along with its confidence.
-- `VoskResultText.cs`: Inserts the detected results into a UI component of the project.
+- `VoskResultText.cs`: (OPTIONAL) Inserts the detected results into a UI component of the project.<br>
+📝 **Note:** this script isn't really that usefull, it's actually better making one of your own to have some more freedome.
