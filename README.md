@@ -9,7 +9,7 @@ Streaming assets will conain all the models used by vosk in .zip format.<br>
 You can find other vosk models [here](https://alphacephei.com/vosk/models)
 
 ## Vosk
-This folder contains a bunch of dependencies that the base scripts use, just put them in the `Assets` folder
+This folder contains a bunch of dependencies that the base scripts use, just put it in the `Assets` folder
 
 ## Plugins
 This folder contsins the plugin for both android and windows (for testing in the editor), insert them in the `Assets` folder, or insert the content in the `Assets/Plugins` if you already have one
